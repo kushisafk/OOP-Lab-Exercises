@@ -22,6 +22,6 @@ public class SalesTaxCalculator {
         }
         System.out.printf("Total Price: $%.2f%n",sum_price);
         System.out.printf("Total Actual Price: $%.2f%n",sum_ap);
-        System.out.printf("Total Sales Tax: $%.2f%n",sum_tax);
+        System.out.printf("Total Sales Tax: $%.2f%n",sum_tax);    
     }
 }
