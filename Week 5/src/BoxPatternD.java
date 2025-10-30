@@ -8,12 +8,26 @@ public class BoxPatternD {
 
         //first ROW
         for (int i=1; i<=input; i++){
-            System.out.println("#");
+            System.out.print("# ");
         }
-        
+        System.out.println();
+
+        //X shape
+        for(int row=2; row<input; row++){
+            for (int col=1; col<input; col++){
+                if(row==col || row + col == input + 1){
+                    System.out.print("# ");
+                }
+                else{
+                    System.out.print("  ");
+                }
+            }
+            System.out.println();
+        }
+
         //last ROW
         for (int i=1; i<=input; i++){
-            System.out.println("#");
+            System.out.print("# ");
         }
     }
 }
